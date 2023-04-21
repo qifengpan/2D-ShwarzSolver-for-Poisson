@@ -7,7 +7,8 @@ The code employs Alternating FEM scheme to solve 2D Poisson problem.
 Download the code and use make to compile executable.
 
 To generate data there are two ways:
-    1. mpirun -np 2 ./main Mesh_size Overlapping
-    The overlaping can be set as 2. The code will generate a csv file
-    2. bash ./run_DifferentMesh.sh
-    The script will generate automatically up to 45 data file stored under ./outputfile
+        1. mpirun -np 2 ./main Mesh_size Overlapping
+        The overlaping can be set as 2. The code will generate a csv file
+        
+        2. bash ./run_DifferentMesh.sh
+        The script will generate automatically up to 45 data file stored under ./outputfile
